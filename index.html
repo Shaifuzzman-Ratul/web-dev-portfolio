@@ -5,16 +5,182 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
 </head>
 
-<body>
-    <header>
-        <main>
-            <footer>
+<body class="open-sans-normal">
+    <header class="header secondar-bg">
+        <nav>
+            <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+            <ul>
+                <li>
+                    <a class="dark-2" href="">Portfolio</a>
+                </li>
+                <li>
+                    <a class="dark-2" href="">Blog</a>
+                </li>
+                <li>
+                    <a href=""><button class="btn-primary">Hire Me</button></a>
+                </li>
+            </ul>
 
-                s </footer>
-        </main>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-greeting dark-2">Hi, I am</h4>
+                <h1 class="banner-title">Marry Hardy</h1>
+                <p class="banner-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+                    maiores sapiente quibusdam qui voluptas fugiat ullam doloremque quam impedit eaque?</p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">Contact</button>
+            </div>
+
+            <img class="hardy-image" src="images/hardy.png" alt="">
+
+        </div>
     </header>
+    <main>
+        <section class="about secondar-bg">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe
+                necessitatibus mollitia blanditiis iusto facilis aspernatur. Accusantium ex sit nemo vitae voluptas
+                aliquid, voluptatibus consequuntur voluptates ipsam laudantium distinctio rem.</p>
+            <div class="about-items">
+                <!-- .about-item*4>p.item-title+p.item-description -->
+                <div class="about-item">
+                    <p class="item-title dark-2">name</p>
+                    <p class="item-description">Marry Hardy </p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title dark-2">Email </p>
+                    <p class="item-description">abc@gmail.cpm</p>
+                </div>
+                <div class="about-item ">
+                    <p class="item-title dark-2">Date of Birth</p>
+                    <p class="item-description">Aug 10,1999</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title dark-2">From</p>
+                    <p class="item-description">Kolatoli,Bangladesh</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <h3 class="section-title">What I Do</h3>
+            <p class="sextion-description dark-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                quibusdam
+                dolorem, ut cum quos, inventore quisquam veritatis at vero possimus amet provident iure numquam enim.
+            </p>
+            <div class="skils-container">
+                <!-- .skill*4>img+h4.skill-title+p.skill-descripton -->
+                <div class="skill">
+                    <img src="images/icons/js.png" alt="">
+                    <h4 class="skill-title">Vanila JavaScript</h4>
+                    <p class="skill-descripton">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fugiat
+                        enim eveniet alias cum repellat? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Delectus, error!</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/react.png" alt="">
+                    <h4 class="skill-title">React</h4>
+                    <p class="skill-descripton">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+                        totam consequuntur est dolorem suscipit magnam dolor eum expedita beatae mollitia.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h4 class="skill-title">Node.Js</h4>
+                    <p class="skill-descripton">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur non
+                        soluta consequatur fugiat inventore minima qui dolores ea omnis ipsa.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <p class="skill-descripton">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                        facere, fuga obcaecati iusto, iste at explicabo, officia odit quam est ad vel suscipit. Autem,
+                        cumque?</p>
+                </div>
+            </div>
+        </section>
+        <section class="resume">
+            <h3 class="section-title">
+                A Summary of My Resume
+            </h3>
+            <div class="resume-container">
+                <!-- .resume-colimn*2>h3.resume-column-title+.experience*3>h4.experience-title+h5.experience-sub-title+.experience-description -->
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Education</h3>
+
+                    <div class="experience">
+                        <h4 class="experience-title">Software Engineering</h4>
+                        <h5 class="experience-sub-title">Daffodil International University</h5>
+                        <div class="experience-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis culpa delectus non
+                            adipisci quam. Ipsam accusantium repudiandae perferendis et numquam.
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="experience">
+                        <h4 class="experience-title">Software Engineering</h4>
+                        <h5 class="experience-sub-title">Daffodil International University</h5>
+                        <div class="experience-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis culpa delectus non
+                            adipisci quam. Ipsam accusantium repudiandae perferendis et numquam.
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="experience">
+                        <h4 class="experience-title">Software Engineering</h4>
+                        <h5 class="experience-sub-title">Daffodil International University</h5>
+                        <div class="experience-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis culpa delectus non
+                            adipisci quam. Ipsam accusantium repudiandae perferendis et numquam.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Experience</h3>
+
+                    <div class="experience">
+                        <h4 class="experience-title">Software Engineering</h4>
+                        <h5 class="experience-sub-title">Daffodil International University</h5>
+                        <div class="experience-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis culpa delectus non
+                            adipisci quam. Ipsam accusantium repudiandae perferendis et numquam.
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="experience">
+                        <h4 class="experience-title">Software Engineering</h4>
+                        <h5 class="experience-sub-title">Daffodil International University</h5>
+                        <div class="experience-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis culpa delectus non
+                            adipisci quam. Ipsam accusantium repudiandae perferendis et numquam.
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="experience">
+                        <h4 class="experience-title">Software Engineering</h4>
+                        <h5 class="experience-sub-title">Daffodil International University</h5>
+                        <div class="experience-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis culpa delectus non
+                            adipisci quam. Ipsam accusantium repudiandae perferendis et numquam.
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+        <div class="download-cv"><button class="btn-primary">Download CV</button></div>
+    </main>
+    <footer></footer>
 </body>
 
 </html>
